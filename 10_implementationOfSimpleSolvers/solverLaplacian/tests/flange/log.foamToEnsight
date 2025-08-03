@@ -1,0 +1,47 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _8dbc61e11c-20241220 OPENFOAM=2412 version=v2412
+Arch   : "LSB;label=32;scalar=64"
+Exec   : foamToEnsight -noZero
+Date   : Aug 03 2025
+Time   : 21:56:12
+Host   : huanlinux
+PID    : 673953
+I/O    : uncollated
+Case   : /home/huan/OpenFOAM/huan-v2412/applications/lectureNotes/10_implementationOfSimpleSolvers/solverLaplacian/tests/flange
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+internal: true
+cellZones: true
+boundary: true
+faceZones: false
+Create time
+
+--> FOAM Warning : 
+    From static Foam::instantList Foam::timeSelector::select0(Foam::Time&, const Foam::argList&)
+    in file db/Time/timeSelector.C at line 284
+    No time specified or available, selecting 'constant'
+Initial memory 207616 kB
+Create mesh for time = constant
+
+Converting 1 time steps
+Search for lagrangian ... none detected.
+Startup in 0.03 s, 209640 kB
+
+Time [0] = constant
+    volume field ( )
+    point  field ( )
+Wrote in 0.01 s, 209976 kB
+
+
+End: 0.04 s, 209976 kB (peak)
+

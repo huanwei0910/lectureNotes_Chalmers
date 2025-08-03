@@ -1,0 +1,4 @@
+SOURCE = \
+myConvectionDiffusionSolver.C \
+
+# sources

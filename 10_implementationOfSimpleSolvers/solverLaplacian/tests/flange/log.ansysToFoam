@@ -1,0 +1,47 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _8dbc61e11c-20241220 OPENFOAM=2412 version=v2412
+Arch   : "LSB;label=32;scalar=64"
+Exec   : ansysToFoam /home/huan/OpenFOAM/OpenFOAM-v2412/tutorials/resources/geometry/flange.ans -scale 0.001
+Date   : Aug 03 2025
+Time   : 21:56:12
+Host   : huanlinux
+PID    : 673939
+I/O    : uncollated
+Case   : /home/huan/OpenFOAM/huan-v2412/applications/lectureNotes/10_implementationOfSimpleSolvers/solverLaplacian/tests/flange
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Creating points
+Creating cells
+--> FOAM Warning : 
+    From Foam::polyMesh::polyMesh(const Foam::IOobject&, Foam::pointField&&, const cellShapeList&, const faceListList&, const wordList&, const wordList&, const Foam::word&, const Foam::word&, const wordList&, bool)
+    in file meshes/polyMesh/polyMeshFromShapeMesh.C at line 640
+    Found 3268 undefined faces in mesh; adding to default patch defaultFaces
+Creating boundary patches
+Patch 0 named patch1: 2440 faces
+Patch 1 named patch2: 348 faces
+Patch 2 named patch3: 96 faces
+Patch 3 named patch4: 384 faces
+ansysToFoam: 
+Ansys file format does not provide information about the type of the patch (eg. wall, symmetry plane, cyclic etc).
+All the patches have been created as type patch. Please reset after mesh conversion as necessary.
+
+Default patch type set to empty
+Creating faceZone patch1 with 2440 faces
+Creating faceZone patch2 with 348 faces
+Creating faceZone patch3 with 96 faces
+Creating faceZone patch4 with 384 faces
+Writing polyMesh
+
+End
