@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "onlyMainFunction.C": "cpp",
+        "myTensor.C": "cpp",
+        "ostream": "cpp",
+        "myTensor2.C": "cpp",
+        "random": "cpp",
+        "optional": "cpp",
+        "system_error": "cpp",
+        "3_meshAndField.C": "cpp"
+    }
+}

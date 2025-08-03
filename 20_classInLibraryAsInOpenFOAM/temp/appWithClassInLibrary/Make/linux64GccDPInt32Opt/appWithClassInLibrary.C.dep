@@ -1,0 +1,5 @@
+$(OBJECTS_DIR)/appWithClassInLibrary.C.dep: \
+appWithClassInLibrary.C \
+myClass/myClass.H \
+
+#END

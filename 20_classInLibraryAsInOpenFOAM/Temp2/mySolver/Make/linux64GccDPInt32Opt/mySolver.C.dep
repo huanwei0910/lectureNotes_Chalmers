@@ -1,0 +1,4 @@
+$(OBJECTS_DIR)/mySolver.C.dep: \
+mySolver.C \
+
+#END

@@ -1,0 +1,5 @@
+$(OBJECTS_DIR)/appWithClassInLibraryNewAppFoam.C.dep: \
+appWithClassInLibraryNewAppFoam.C \
+myClass/myClass.H \
+
+#END

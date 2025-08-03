@@ -1,0 +1,5 @@
+SOURCE = \
+myClass/myClass.C \
+appWithClassInLibraryNewAppFoam.C \
+
+# sources

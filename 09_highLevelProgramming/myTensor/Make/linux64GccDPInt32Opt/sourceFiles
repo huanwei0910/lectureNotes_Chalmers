@@ -1,0 +1,4 @@
+SOURCE = \
+myTensor.C \
+
+# sources

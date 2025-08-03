@@ -1,0 +1,4 @@
+SOURCE = \
+myIcoFoamBC.C \
+
+# sources
