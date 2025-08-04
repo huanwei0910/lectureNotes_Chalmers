@@ -85,6 +85,8 @@
         "constFunc.C": "cpp",
         "appWithClassInLibrary.C": "cpp",
         "myClass.C": "cpp",
-        "appWithClassInLibraryNewAppFoam.C": "cpp"
+        "appWithClassInLibraryNewAppFoam.C": "cpp",
+        "exampleCode9_Failed.C": "cpp",
+        "exampleCode1.C": "cpp"
     }
 }
