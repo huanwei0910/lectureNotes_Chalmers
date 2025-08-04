@@ -1,0 +1,4 @@
+SOURCE = \
+passiveScalarPimpleFoam.C \
+
+# sources
