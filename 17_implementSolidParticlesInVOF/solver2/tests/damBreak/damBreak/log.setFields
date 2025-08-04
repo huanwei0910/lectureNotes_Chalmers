@@ -1,0 +1,39 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _8dbc61e11c-20241220 OPENFOAM=2412 version=v2412
+Arch   : "LSB;label=32;scalar=64"
+Exec   : setFields
+Date   : Aug 04 2025
+Time   : 21:00:16
+Host   : huanlinux
+PID    : 1096940
+I/O    : uncollated
+Case   : /home/huan/OpenFOAM/huan-v2412/applications/lectureNotes/17_implementSolidParticlesInVOF/solver2/tests/damBreak/damBreak
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Reading setFieldsDict
+
+Setting volume field default values
+    - set internal values of volScalarField: alpha.water = 0
+
+Setting field region values
+
+    Adding cells with centre within boxes 1((0 0 -1) (0.1461 0.292 1))
+    Selected 324/2268 cells
+    - set internal values of volScalarField: alpha.water = 1
+
+End
+

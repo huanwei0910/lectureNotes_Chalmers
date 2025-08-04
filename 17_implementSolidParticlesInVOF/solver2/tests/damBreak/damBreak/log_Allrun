@@ -1,0 +1,4 @@
+Restore 0/ from 0.orig/
+Running blockMesh on /home/huan/OpenFOAM/huan-v2412/applications/lectureNotes/17_implementSolidParticlesInVOF/solver2/tests/damBreak/damBreak
+Running setFields on /home/huan/OpenFOAM/huan-v2412/applications/lectureNotes/17_implementSolidParticlesInVOF/solver2/tests/damBreak/damBreak
+Running solidParticleInterFoam on /home/huan/OpenFOAM/huan-v2412/applications/lectureNotes/17_implementSolidParticlesInVOF/solver2/tests/damBreak/damBreak
