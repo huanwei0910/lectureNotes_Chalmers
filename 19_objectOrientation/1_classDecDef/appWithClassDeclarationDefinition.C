@@ -8,7 +8,11 @@ class myClass
         int i_; //Member data (underscore is OpenFOAM convention)
         float j_;
         static int m_;
-        myClass();
+        // myClass();//在类声明中显式声明构造函数和析构函数。
+        myClass():i_(10),j_(10.5)
+        {
+            cout<< "i_ = running" << i_ << endl;
+        }
         ~myClass(); 
         void write();
         
@@ -16,11 +20,6 @@ class myClass
 
 };
 
-myClass::myClass():
-    i_(10),j_(10.5)
-    {
-        cout<< "i_ = " << i_ << endl;
-    }
 myClass::~myClass()
 {
     cout<< "finito = "<< endl; 
