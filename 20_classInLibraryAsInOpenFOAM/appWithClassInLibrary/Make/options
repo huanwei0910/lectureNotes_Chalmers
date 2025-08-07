@@ -1,5 +1,0 @@
-EXE_INC = \
--ImyLibrary/lnInclude
-EXE_LIBS = \
--L$(FOAM_USER_LIBBIN) \
--lmyLibrary

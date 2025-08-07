@@ -1,4 +1,0 @@
-myClass/myClass.C
-appWithClassInLibraryNewAppFoam.C
-
-EXE = $(FOAM_USER_APPBIN)/appWithClassInLibraryNewAppFoam
