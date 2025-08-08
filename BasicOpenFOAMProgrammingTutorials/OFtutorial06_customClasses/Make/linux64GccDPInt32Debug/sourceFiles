@@ -1,0 +1,6 @@
+SOURCE = \
+customClass.C \
+derivedClass.C \
+OFtutorial06.C \
+
+# sources

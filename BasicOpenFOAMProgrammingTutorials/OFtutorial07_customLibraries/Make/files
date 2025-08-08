@@ -1,0 +1,3 @@
+OFtutorial07.C
+
+EXE = $(FOAM_USER_APPBIN)/OFtutorial07
