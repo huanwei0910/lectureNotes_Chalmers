@@ -1,0 +1,5 @@
+SOURCE = \
+myClass/myClass.C \
+mySolver.C \
+
+# sources

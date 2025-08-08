@@ -1,0 +1,4 @@
+fvPatchFields = fields/fvPatchFields
+derivedFvPatchFields = $(fvPatchFields)/derived
+$(derivedFvPatchFields)/myCylindricalInletVelocity/myCylindricalInletVelocityFvPatchVectorField.C
+LIB = $(FOAM_USER_LIBBIN)/libmyFiniteVolume

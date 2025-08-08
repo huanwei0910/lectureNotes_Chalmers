@@ -1,0 +1,3 @@
+myClass/myClass.C
+appWithClassInLibrary.C
+EXE = $(FOAM_USER_APPBIN)/appWithClassInLibrary

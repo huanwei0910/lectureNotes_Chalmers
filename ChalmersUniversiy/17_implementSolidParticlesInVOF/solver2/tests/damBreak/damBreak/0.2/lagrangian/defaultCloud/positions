@@ -1,0 +1,26 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=32;scalar=64";
+    class       Cloud<solidParticle>;
+    location    "0.2/lagrangian/defaultCloud";
+    object      positions;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+2
+(
+(0.0530562 0.370392 0.005) 915
+(0.352995 0.373286 0.005) 1947
+)
+
+
+// ************************************************************************* //

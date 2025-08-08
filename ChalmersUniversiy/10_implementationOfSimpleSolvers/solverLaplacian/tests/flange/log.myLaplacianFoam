@@ -1,0 +1,41 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _8dbc61e11c-20241220 OPENFOAM=2412 version=v2412
+Arch   : "LSB;label=32;scalar=64"
+Exec   : myLaplacianFoam
+Date   : Aug 03 2025
+Time   : 21:56:12
+Host   : huanlinux
+PID    : 673952
+I/O    : uncollated
+Case   : /home/huan/OpenFOAM/huan-v2412/applications/lectureNotes/10_implementationOfSimpleSolvers/solverLaplacian/tests/flange
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+
+SIMPLE: no convergence criteria found. Calculations will run for 3 steps.
+
+Reading diffusivity DT
+
+
+
+--> FOAM FATAL ERROR: (openfoam-2412)
+cannot find file "/home/huan/OpenFOAM/huan-v2412/applications/lectureNotes/10_implementationOfSimpleSolvers/solverLaplacian/tests/flange/constant/DT"
+
+    From virtual Foam::autoPtr<Foam::ISstream> Foam::fileOperations::uncollatedFileOperation::readStream(Foam::regIOobject&, const Foam::fileName&, const Foam::word&, bool) const
+    in file global/fileOperations/uncollatedFileOperation/uncollatedFileOperation.C at line 629.
+
+FOAM exiting
+

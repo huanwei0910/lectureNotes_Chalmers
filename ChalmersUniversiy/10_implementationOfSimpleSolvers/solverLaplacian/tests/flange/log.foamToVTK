@@ -1,0 +1,39 @@
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  2412                                  |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : _8dbc61e11c-20241220 OPENFOAM=2412 version=v2412
+Arch   : "LSB;label=32;scalar=64"
+Exec   : foamToVTK
+Date   : Aug 03 2025
+Time   : 21:56:13
+Host   : huanlinux
+PID    : 673954
+I/O    : uncollated
+Case   : /home/huan/OpenFOAM/huan-v2412/applications/lectureNotes/10_implementationOfSimpleSolvers/solverLaplacian/tests/flange
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 5, maxFileModificationPolls 20)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Initial memory 207732 kB
+Create mesh for time = 0
+
+VTK mesh topology: 0.02 s, 208904 kB
+Time: 0
+    volScalar    : T
+    Internal  : "VTK/flange_0/internal.vtu"
+    Boundary  : "VTK/flange_0/boundary/patch1.vtp"
+    Boundary  : "VTK/flange_0/boundary/patch2.vtp"
+    Boundary  : "VTK/flange_0/boundary/patch3.vtp"
+    Boundary  : "VTK/flange_0/boundary/patch4.vtp"
+Wrote in 0.03 s, 213200 kB
+
+End: 0.05 s, 213296 kB (peak)
+

@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "appWithClassInLibrary.C": "cpp",
+        "myClass.C": "cpp",
+        "mySolver.C": "cpp",
+        "class1.C": "cpp",
+        "iostream": "cpp"
+    }
+}

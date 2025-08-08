@@ -1,0 +1,2 @@
+myClass/myClass.C
+LIB = $(FOAM_USER_LIBBIN)/libmyLibrary

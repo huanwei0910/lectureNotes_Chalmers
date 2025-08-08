@@ -1,0 +1,50 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v2412                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       volVectorField;
+    object      U;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+dimensions      [0 1 -1 0 0 0 0];
+
+internalField   uniform (0 0 0);
+
+boundaryField
+{
+    movingWall
+    {
+        /* type            fixedValue;
+        value           uniform (1 0 0); */
+        //type dummy;
+        type myCylindricalInletVelocity;
+        axis (1 0 0);
+        origin (0 0 0);
+        axialVelocity constant 1;
+        radialVelocity constant 0;
+        rpm constant 0;
+        value uniform (0 0 0); //Compulsory, but only placeholder!!!
+        //Line to fix copy-paste-problem
+    }
+
+    fixedWalls
+    {
+        type            noSlip;
+    }
+
+    frontAndBack
+    {
+        type            empty;
+    }
+}
+
+
+// ************************************************************************* //

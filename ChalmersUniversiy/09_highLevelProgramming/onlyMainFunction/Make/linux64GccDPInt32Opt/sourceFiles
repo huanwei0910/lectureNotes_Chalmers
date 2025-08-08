@@ -1,0 +1,4 @@
+SOURCE = \
+onlyMainFunction.C \
+
+# sources

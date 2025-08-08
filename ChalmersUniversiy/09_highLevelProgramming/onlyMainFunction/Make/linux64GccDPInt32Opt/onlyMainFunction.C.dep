@@ -1,0 +1,4 @@
+$(OBJECTS_DIR)/onlyMainFunction.C.dep: \
+onlyMainFunction.C \
+
+#END

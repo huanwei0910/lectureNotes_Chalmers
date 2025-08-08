@@ -1,0 +1,4 @@
+SOURCE = \
+myThermalConductionSolverST.C \
+
+# sources

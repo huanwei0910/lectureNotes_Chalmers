@@ -1,0 +1,4 @@
+SOURCE = \
+appWithClassInLibrary.C \
+
+# sources

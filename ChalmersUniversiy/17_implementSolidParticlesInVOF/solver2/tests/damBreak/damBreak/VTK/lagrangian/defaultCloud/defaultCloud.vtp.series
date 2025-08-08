@@ -1,0 +1,26 @@
+{
+  "file-series-version" : "1.0",
+  "files" : [
+    { "name" : "defaultCloud_0.vtp", "time" : 0 },
+    { "name" : "defaultCloud_13.vtp", "time" : 0.05 },
+    { "name" : "defaultCloud_21.vtp", "time" : 0.1 },
+    { "name" : "defaultCloud_44.vtp", "time" : 0.15 },
+    { "name" : "defaultCloud_68.vtp", "time" : 0.2 },
+    { "name" : "defaultCloud_88.vtp", "time" : 0.25 },
+    { "name" : "defaultCloud_104.vtp", "time" : 0.3 },
+    { "name" : "defaultCloud_118.vtp", "time" : 0.35 },
+    { "name" : "defaultCloud_142.vtp", "time" : 0.4 },
+    { "name" : "defaultCloud_181.vtp", "time" : 0.45 },
+    { "name" : "defaultCloud_203.vtp", "time" : 0.5 },
+    { "name" : "defaultCloud_220.vtp", "time" : 0.55 },
+    { "name" : "defaultCloud_242.vtp", "time" : 0.6 },
+    { "name" : "defaultCloud_263.vtp", "time" : 0.65 },
+    { "name" : "defaultCloud_278.vtp", "time" : 0.7 },
+    { "name" : "defaultCloud_292.vtp", "time" : 0.75 },
+    { "name" : "defaultCloud_302.vtp", "time" : 0.8 },
+    { "name" : "defaultCloud_313.vtp", "time" : 0.85 },
+    { "name" : "defaultCloud_323.vtp", "time" : 0.9 },
+    { "name" : "defaultCloud_334.vtp", "time" : 0.95 },
+    { "name" : "defaultCloud_342.vtp", "time" : 1 }
+  ]
+}
